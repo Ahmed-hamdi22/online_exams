@@ -72,7 +72,7 @@ export default function Register() {
   });
 
   return (
-    <div className="container min-vh-95 m-5d-flex   w-100">
+    <div className="container min-vh-98 m-5d-flex   w-100 mt-4">
       <div className="row">
         <div className="col-md-6 image shadow">
           <div className="text-center">
