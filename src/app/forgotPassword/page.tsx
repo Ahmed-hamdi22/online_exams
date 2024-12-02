@@ -74,7 +74,7 @@ const router = useRouter();
 
 
 <div className=" d-flex justify-content-end   mb">
-              <Link className="me-3" href={"/login"}>signup</Link>
+              <Link className="me-3" href={"/login"}>signin</Link>
               <Link className="rounded-xl border cursor-pointer px-2 "  href={"/register"}>Register</Link>
             </div>
             {message.text && (
@@ -95,7 +95,7 @@ const router = useRouter();
             required
           />
         </div>
-        <Link href="/recoverPassword" className="d-block text-end mt-2">Recover password?</Link>
+        <Link href="/" className="d-block text-end mt-2">Recover password?</Link>
         <button  type="submit"  className=" bg-[#4461F2] text-white w-100 rounded-4 mt-3 " disabled={loading}>
           {loading ? "Sending..." : "Send Code"}
         </button>

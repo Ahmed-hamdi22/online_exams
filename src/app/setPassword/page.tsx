@@ -108,7 +108,7 @@ export default function SetNewPassword() {
      <div className="col-md-6 d-flex align-items-center justify-content-center">
       <div className="w-75">
       <div className="d-flex justify-content-end mt-3 mb">
-              <Link className="me-3" href={"/login"}>signup</Link>
+              <Link className="me-3" href={"/login"}>signin</Link>
               <Link  href={"/register"}>Register</Link>
             </div>
             {message.text && (

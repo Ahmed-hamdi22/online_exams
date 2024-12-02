@@ -71,7 +71,7 @@ export default function VerifyCode() {
 <div className="col-md-6 d-flex align-items-center justify-content-center">
   <div className="w-75">
   <div className="d-flex justify-content-end mb">
-              <Link className="me-3" href={"/login"}>signup</Link>
+              <Link className="me-3" href={"/login"}>signin</Link>
               <Link  href={"/register"}>Register</Link>
             </div>
 
@@ -92,6 +92,7 @@ export default function VerifyCode() {
             placeholder="Enter the verification code"
             required
           />
+        <Link href="/" className="d-block text-end mt-2 text-black">Didn't receive a code ? <span className="text-indigo-700">Resend</span></Link>
         </div>
         <button type="submit" className="btn btn-primary w-100 rounded-4 mt-3" disabled={loading}>
           {loading ? "Verifying..." : "Verify Code"}

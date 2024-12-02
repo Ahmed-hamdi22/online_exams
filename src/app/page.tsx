@@ -18,7 +18,6 @@ export default function Signin() {
             </p>
             <img
              src="/bro.png"
-              alt="Illustration"
               className="img-fluid"
               style={{ maxHeight: '300px' }}
             />

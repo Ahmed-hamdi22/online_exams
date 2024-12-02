@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Signin() {
   return (
-    <div className="container vh-100 d-flex w-95">
+    <div className="container vh-95] mb-5 mt-5 d-flex  w-75  ">
       <div className="row ">
         <div className="col-md-6 image shadow ">
           <div className="text-center">
@@ -26,8 +26,8 @@ export default function Signin() {
             />
           </div>
         </div>
-        <div className="col-md-6 d-flex align-items-center justify-content-center">
-          <div className="w-75">
+        <div className="col-md-5 ml-8 d-flex align-items-center  justify-content-center offset-1">
+          <div className="w-95 ">
             <div className="d-flex justify-content-end mb-5">
              
             <Link className="me-3 p-1" href={"/login"}>
